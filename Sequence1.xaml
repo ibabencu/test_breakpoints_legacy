@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Sequence1" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1166,4308" sap2010:WorkflowViewState.IdRef="Sequence1_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Sequence1" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1208,4439" sap2010:WorkflowViewState.IdRef="Sequence1_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -72,103 +72,103 @@
       <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Sequence1" sap:VirtualizedContainerService.HintSize="1176,4243" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Sequence1" sap:VirtualizedContainerService.HintSize="1176,4374" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <If Condition="True" sap:VirtualizedContainerService.HintSize="1134,4151" sap2010:WorkflowViewState.IdRef="If_7">
+    <If Condition="True" sap:VirtualizedContainerService.HintSize="1134,4282" sap2010:WorkflowViewState.IdRef="If_7">
       <If.Then>
-        <Sequence sap:VirtualizedContainerService.HintSize="1098,3964" sap2010:WorkflowViewState.IdRef="Sequence_16">
+        <Sequence sap:VirtualizedContainerService.HintSize="1098,4095" sap2010:WorkflowViewState.IdRef="Sequence_16">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
           <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="1056,91" sap2010:WorkflowViewState.IdRef="LogMessage_7" Level="Error" Message="[&quot;if 1&quot;]" />
-          <If Condition="True" sap:VirtualizedContainerService.HintSize="1056,3741" sap2010:WorkflowViewState.IdRef="If_8">
+          <If Condition="True" sap:VirtualizedContainerService.HintSize="1056,3872" sap2010:WorkflowViewState.IdRef="If_8">
             <If.Then>
-              <Sequence sap:VirtualizedContainerService.HintSize="1020,3554" sap2010:WorkflowViewState.IdRef="Sequence_18">
+              <Sequence sap:VirtualizedContainerService.HintSize="1020,3685" sap2010:WorkflowViewState.IdRef="Sequence_18">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
                 <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="978,91" sap2010:WorkflowViewState.IdRef="LogMessage_8" Level="Error" Message="[&quot;if 2&quot;]" />
-                <If Condition="True" sap:VirtualizedContainerService.HintSize="978,3331" sap2010:WorkflowViewState.IdRef="If_5">
+                <If Condition="True" sap:VirtualizedContainerService.HintSize="978,3462" sap2010:WorkflowViewState.IdRef="If_5">
                   <If.Then>
-                    <Sequence sap:VirtualizedContainerService.HintSize="942,3144" sap2010:WorkflowViewState.IdRef="Sequence_12">
+                    <Sequence sap:VirtualizedContainerService.HintSize="942,3275" sap2010:WorkflowViewState.IdRef="Sequence_12">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                       <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="900,91" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Warn" Message="[&quot;if 3&quot;]" />
-                      <If Condition="True" sap:VirtualizedContainerService.HintSize="900,2921" sap2010:WorkflowViewState.IdRef="If_6">
+                      <If Condition="True" sap:VirtualizedContainerService.HintSize="900,3052" sap2010:WorkflowViewState.IdRef="If_6">
                         <If.Then>
-                          <Sequence sap:VirtualizedContainerService.HintSize="864,2734" sap2010:WorkflowViewState.IdRef="Sequence_14">
+                          <Sequence sap:VirtualizedContainerService.HintSize="864,2865" sap2010:WorkflowViewState.IdRef="Sequence_14">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
                             <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="822,91" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Warn" Message="[&quot;if 4&quot;]" />
-                            <If Condition="True" sap:VirtualizedContainerService.HintSize="822,2511" sap2010:WorkflowViewState.IdRef="If_3">
+                            <If Condition="True" sap:VirtualizedContainerService.HintSize="822,2642" sap2010:WorkflowViewState.IdRef="If_3">
                               <If.Then>
-                                <Sequence sap:VirtualizedContainerService.HintSize="786,2324" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                                <Sequence sap:VirtualizedContainerService.HintSize="786,2455" sap2010:WorkflowViewState.IdRef="Sequence_8">
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                   <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="744,91" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Warn" Message="[&quot;if 5&quot;]" />
-                                  <If Condition="True" sap:VirtualizedContainerService.HintSize="744,2101" sap2010:WorkflowViewState.IdRef="If_4">
+                                  <If Condition="True" sap:VirtualizedContainerService.HintSize="744,2232" sap2010:WorkflowViewState.IdRef="If_4">
                                     <If.Then>
-                                      <Sequence sap:VirtualizedContainerService.HintSize="708,1914" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                                      <Sequence sap:VirtualizedContainerService.HintSize="708,2045" sap2010:WorkflowViewState.IdRef="Sequence_10">
                                         <sap:WorkflowViewStateService.ViewState>
                                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                           </scg:Dictionary>
                                         </sap:WorkflowViewStateService.ViewState>
                                         <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="666,91" sap2010:WorkflowViewState.IdRef="LogMessage_6" Level="Warn" Message="[&quot;if 6&quot;]" />
-                                        <If Condition="True" sap:VirtualizedContainerService.HintSize="666,1691" sap2010:WorkflowViewState.IdRef="If_2">
+                                        <If Condition="True" sap:VirtualizedContainerService.HintSize="666,1822" sap2010:WorkflowViewState.IdRef="If_2">
                                           <If.Then>
-                                            <Sequence sap:VirtualizedContainerService.HintSize="630,1504" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                                            <Sequence sap:VirtualizedContainerService.HintSize="630,1635" sap2010:WorkflowViewState.IdRef="Sequence_6">
                                               <sap:WorkflowViewStateService.ViewState>
                                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                 </scg:Dictionary>
                                               </sap:WorkflowViewStateService.ViewState>
                                               <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="588,91" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;if 7&quot;]" />
-                                              <If Condition="True" sap:VirtualizedContainerService.HintSize="588,1281" sap2010:WorkflowViewState.IdRef="If_1">
+                                              <If Condition="True" sap:VirtualizedContainerService.HintSize="588,1412" sap2010:WorkflowViewState.IdRef="If_1">
                                                 <If.Then>
-                                                  <Sequence sap:VirtualizedContainerService.HintSize="552,1094" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                                                  <Sequence sap:VirtualizedContainerService.HintSize="552,1225" sap2010:WorkflowViewState.IdRef="Sequence_4">
                                                     <sap:WorkflowViewStateService.ViewState>
                                                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                       </scg:Dictionary>
                                                     </sap:WorkflowViewStateService.ViewState>
                                                     <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="510,91" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;if 8&quot;]" />
-                                                    <ui:RepeatNumberOfTimesX DisplayName="Repeat Number of Times" sap:VirtualizedContainerService.HintSize="510,871" sap2010:WorkflowViewState.IdRef="RepeatNumberOfTimesX_1" NumberOfTimes="3" StartAt="1">
+                                                    <ui:RepeatNumberOfTimesX DisplayName="Repeat Number of Times" sap:VirtualizedContainerService.HintSize="510,1002" sap2010:WorkflowViewState.IdRef="RepeatNumberOfTimesX_1" NumberOfTimes="3" StartAt="1">
                                                       <ui:RepeatNumberOfTimesX.Body>
                                                         <ActivityAction x:TypeArguments="x:Int32">
                                                           <ActivityAction.Argument>
                                                             <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentItem" />
                                                           </ActivityAction.Argument>
-                                                          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="476,716" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                                                          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="476,847" sap2010:WorkflowViewState.IdRef="Sequence_3">
                                                             <sap:WorkflowViewStateService.ViewState>
                                                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                               </scg:Dictionary>
                                                             </sap:WorkflowViewStateService.ViewState>
-                                                            <uix:NApplicationCard WebDriverMode="{x:Null}" AttachMode="ByInstance" DisplayName="Use Browser Edge: Amazon.com. Spend less. Smile more." sap:VirtualizedContainerService.HintSize="434,624" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="d3e657af-789d-4d13-bf2a-ea9586c3b17a" Version="V2">
+                                                            <uix:NApplicationCard WebDriverMode="{x:Null}" AttachMode="ByInstance" DisplayName="Use Browser Edge: Amazon.com. Spend less. Smile more." sap:VirtualizedContainerService.HintSize="434,755" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="d3e657af-789d-4d13-bf2a-ea9586c3b17a" Version="V2">
                                                               <uix:NApplicationCard.Body>
                                                                 <ActivityAction x:TypeArguments="x:Object">
                                                                   <ActivityAction.Argument>
                                                                     <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                                                                   </ActivityAction.Argument>
-                                                                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="376,408" sap2010:WorkflowViewState.IdRef="Sequence_2">
+                                                                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="376,539" sap2010:WorkflowViewState.IdRef="Sequence_2">
                                                                     <Sequence.Variables>
                                                                       <Variable x:TypeArguments="x:String" Default="Sylvester Stallone" Name="str1" />
                                                                       <Variable x:TypeArguments="x:Int32" Default="5434" Name="int1" />
@@ -199,6 +199,7 @@
                                                                         <scg:Dictionary x:TypeArguments="x:String, Argument" />
                                                                       </ui:InvokeWorkflowFile.Arguments>
                                                                     </ui:InvokeWorkflowFile>
+                                                                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="334,91" sap2010:WorkflowViewState.IdRef="LogMessage_9" Level="Info" Message="[&quot;adding a change&quot;]" />
                                                                   </Sequence>
                                                                 </ActivityAction>
                                                               </uix:NApplicationCard.Body>
